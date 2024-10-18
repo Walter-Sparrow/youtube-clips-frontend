@@ -67,7 +67,7 @@ export function ClipApplyButton({ videoId, range }: ClipApplyButtonProps) {
               <Input
                 id="link"
                 readOnly
-                value={"http://194.87.26.15:3000/clips/" + videoId}
+                value={"http://194.87.26.15:3000/clips/" + videoId + ".mp4"}
               />
             </div>
           </div>
